@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3000;
+const port = 4000;
 
 // Middleware to parse POST request data
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 app.post('/add', (req, res) => {
     const todoText = req.body.todoText;
     if (todoText) {
-      todos.push({ text: todoText, completed: false }); // Ensure the 'text' property is added
+      todos.push({ text: todoText, completed: false });
     }
     res.redirect('/');
   });
