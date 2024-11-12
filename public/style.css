@@ -25,7 +25,8 @@ body {
     color: #333;
     font-size: 2rem;
     margin-bottom: 20px;
-    margin-left: 60px;
+    text-align:left;
+    font-weight: 600;
   }
   
   form {
@@ -36,38 +37,28 @@ body {
   
   input[type="text"] {
     padding: 10px;
-    width: 300px;
+    width: 550px;
     font-size: 1rem;
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 12px;
-    margin-left: 280px;
-    /* width: 80%;
-    padding: 8px;
-    font-size: 16px;
-    border-radius: 4px;
-    border: 1px solid #ddd; */
+    margin-left: 495px;
+    position: relative;
   }
-  
-  button {
+
+   button {
     padding: 10px 20px;
-    background-color: #d80f19;;
+    background-color: gray;
     color: white;
     border: none;
     border-radius: 12px;
     cursor: pointer;
     font-size: 1rem;
     margin-right: 400px;
-    /* padding: 8px 12px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer; */
+
   }
-  
   button:hover {
-    background-color: #d80f19;
+    background-color: light rgb(231, 226, 226);
   }
   
   table {
@@ -83,7 +74,7 @@ body {
   }
   
   table th {
-    background-color: #d80f19;;
+    background-color: gray;
     color: white;
   }
   
@@ -94,13 +85,28 @@ body {
   }
   
   form button {
-    background-color: #f44336;
+    background-color: gray;
+    position: absolute;
+    right: 10px;
+    width: 100px; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 14px;
+    cursor: pointer;
   }
   
   form button:hover {
-    background-color: #e53935;
+    background-color: gray;
+   
   }
-  
+  .submit1{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5px; /* Make button fit tightly around the icon */
+    margin-left: -1.2px;
+  }
   /* Bin icon styles */
   button i {
     font-size: 20px;
@@ -116,5 +122,31 @@ body {
   input[type="checkbox"] {
     transform: scale(1.5);
     margin-right: 10px;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+
+  /* Flower animation */
+  .flower-pop {
+    position: absolute;
+    background-color: pink;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: flowerPopAnimation 1s ease-out forwards;
+  }
+
+  @keyframes flowerPopAnimation {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(3);
+      opacity: 0;
+    }
   }
   
