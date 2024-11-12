@@ -25,8 +25,12 @@ body {
     color: #333;
     font-size: 2rem;
     margin-bottom: 20px;
+<<<<<<< HEAD
     text-align:left;
     font-weight: 600;
+=======
+    margin-left: 50px;
+>>>>>>> c947bdaf34e568d0663375ec0cfd90a2b5e4bfbe
   }
   
   form {
@@ -42,8 +46,13 @@ body {
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 12px;
+<<<<<<< HEAD
     margin-left: 495px;
     position: relative;
+=======
+    margin-left: 500px;
+
+>>>>>>> c947bdaf34e568d0663375ec0cfd90a2b5e4bfbe
   }
 
    button {
@@ -104,10 +113,15 @@ body {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.5px; /* Make button fit tightly around the icon */
+    padding: 0.5px; 
     margin-left: -1.2px;
   }
+<<<<<<< HEAD
   /* Bin icon styles */
+=======
+  
+
+>>>>>>> c947bdaf34e568d0663375ec0cfd90a2b5e4bfbe
   button i {
     font-size: 20px;
     color: #f44336;
@@ -118,7 +132,7 @@ body {
     color: #e53935;
   }
   
-  /* Checkbox styling */
+ 
   input[type="checkbox"] {
     transform: scale(1.5);
     margin-right: 10px;
