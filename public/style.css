@@ -5,10 +5,7 @@ body {
     background-color: #f4f4f4;
     min-height: 100vh;
     box-sizing: border-box;
-    /* font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0; */
+   
   }
   
   .container {
@@ -21,16 +18,14 @@ body {
   }
   
   h1 {
-    text-align: center;
     color: #333;
     font-size: 2rem;
     margin-bottom: 20px;
-<<<<<<< HEAD
     text-align:left;
     font-weight: 600;
-=======
-    margin-left: 50px;
->>>>>>> c947bdaf34e568d0663375ec0cfd90a2b5e4bfbe
+    
+
+
   }
   
   form {
@@ -46,13 +41,7 @@ body {
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 12px;
-<<<<<<< HEAD
-    margin-left: 495px;
-    position: relative;
-=======
-    margin-left: 500px;
-
->>>>>>> c947bdaf34e568d0663375ec0cfd90a2b5e4bfbe
+    margin-left: 470px;
   }
 
    button {
@@ -95,6 +84,8 @@ body {
   
   form button {
     background-color: gray;
+    border: none;
+    cursor: pointer;
     position: absolute;
     right: 10px;
     width: 100px; 
@@ -116,12 +107,6 @@ body {
     padding: 0.5px; 
     margin-left: -1.2px;
   }
-<<<<<<< HEAD
-  /* Bin icon styles */
-=======
-  
-
->>>>>>> c947bdaf34e568d0663375ec0cfd90a2b5e4bfbe
   button i {
     font-size: 20px;
     color: #f44336;
@@ -162,5 +147,19 @@ body {
       transform: scale(3);
       opacity: 0;
     }
+  }
+  
+  .complete-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .complete-checkbox:checked {
+    background-color: #28a745;
+    border-color: #28a745;   
   }
   

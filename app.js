@@ -25,21 +25,21 @@ app.get('/api/tasks', (req, res) => {
 
 // Route to add a new To-Do item
 app.post('/add', (req, res) => {
-<<<<<<< HEAD
+
   const todoText = req.body.todoText;
   if (todoText) {
     todos.push({ text: todoText, completed: false }); // Ensure the 'text' property is added
   }
   res.redirect('/'); // Redirect to the homepage
 });
-=======
-    const todoText = req.body.todoText;
-    if (todoText) {
-      todos.push({ text: todoText, completed: false });
-    }
-    res.redirect('/');
-  });
->>>>>>> c947bdaf34e568d0663375ec0cfd90a2b5e4bfbe
+
+  //   const todoText = req.body.todoText;
+  //   if (todoText) {
+  //     todos.push({ text: todoText, completed: false });
+  //   }
+  //   res.redirect('/');
+  // });
+
 
 // Route to mark a To-Do as completed
 app.post('/complete', (req, res) => {
