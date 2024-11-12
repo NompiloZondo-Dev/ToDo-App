@@ -15,6 +15,7 @@ body {
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    width: 80%;
   }
   
   h1 {
@@ -100,16 +101,10 @@ body {
     background-color: gray;
    
   }
-  .submit1{
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.5px; 
-    margin-left: -1.2px;
-  }
+
   button i {
     font-size: 20px;
-    color: #f44336;
+    color: red;
     cursor: pointer;
   }
   
@@ -163,3 +158,25 @@ body {
     border-color: #28a745;   
   }
   
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-top: 32px;
+    display: flex;
+    top: 235px;
+    height: 20px;
+    border-radius: 50%;
+    padding-bottom: 32px;
+  
+  
+  }
+
+  .delete-button i {
+    font-size: 20px;
+    color: #e74c3c;
+  }
+
+  .delete-button:hover i {
+    color: #c0392b;
+  }

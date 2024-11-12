@@ -33,12 +33,7 @@ app.post('/add', (req, res) => {
   res.redirect('/'); // Redirect to the homepage
 });
 
-  //   const todoText = req.body.todoText;
-  //   if (todoText) {
-  //     todos.push({ text: todoText, completed: false });
-  //   }
-  //   res.redirect('/');
-  // });
+
 
 
 // Route to mark a To-Do as completed

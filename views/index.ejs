@@ -41,14 +41,24 @@
                 <input type="checkbox" <%= todo.completed ? 'checked' : '' %> onclick="this.form.submit()">
               </form>
             </td>
+
             <td>
               <form action="/delete" method="POST" style="display:inline;" onsubmit="return confirmDelete();">
-                <input type="hidden" name="todoIndex" value="<%= index %>">
-                <button class="submit1" style="background: none; border: none; cursor: pointer;">
-                  <i class="fas fa-trash-alt"></i>
+                <input type="hidden" name="todoIndex" value="1">
+                <button type="submit" class="delete-button">
+                  <i class="fas fa-trash-alt"></i> <!-- Trash icon -->
                 </button>
               </form>
             </td>
+
+          <!-- <td>
+              <form action="/delete" method="POST" style="display:inline;" onsubmit="return confirmDelete();">
+                <input type="hidden" name="todoIndex" value="<%= index %>">
+                <button type="submit1" class="submit1" style="background: none; border: none; cursor: pointer;"> 
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+              </form>
+            </td> -->
           </tr>
         <% }); %>
       </tbody>
