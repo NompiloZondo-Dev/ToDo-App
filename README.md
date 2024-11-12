@@ -22,7 +22,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/NompiloZondo-Dev/ToDo-App.git
 cd todo-app
 Install dependencies:
 
