@@ -1,4 +1,4 @@
-#To-Do List App
+##To-Do List App
 
 This is a simple and interactive To-Do List application built with Node.js, Express.js, and EJS templating engine. It allows users to add tasks, mark them as completed, and delete them. When a task is marked as complete, it get cancelled, and the trash icon allows the deletion of tasks after a confirmation dialog.
 
