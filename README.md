@@ -100,3 +100,5 @@ Acknowledgements
 FontAwesome for providing the beautiful icons.
 Express.js for the backend framework.
 EJS for rendering dynamic HTML.
+
+
