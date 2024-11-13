@@ -1,7 +1,9 @@
-To-Do List App
+#To-Do List App
+
 This is a simple and interactive To-Do List application built with Node.js, Express.js, and EJS templating engine. It allows users to add tasks, mark them as completed, and delete them. When a task is marked as complete, it get cancelled, and the trash icon allows the deletion of tasks after a confirmation dialog.
 
 Features
+
 Add Tasks: Users can add new tasks to the list.
 Complete Tasks: Users can mark tasks as completed. When completed, a blue checkmark is displayed.
 Delete Tasks: Users can delete tasks, with a confirmation message to prevent accidental deletion.
@@ -86,6 +88,7 @@ Missing Dependencies: If some dependencies are missing, run npm install again.
 App not starting: Ensure you have installed all dependencies and have Node.js running correctly.
 
 Future Enhancements
+
 Persisting Data: Right now, tasks are stored in memory. In a future version, we can implement a database (like MongoDB or MySQL) to store tasks permanently.
 User Authentication: Add user login and session management to allow users to have their own task lists.
 Task Due Dates: Add functionality to set due dates for tasks and show them in the task list.
@@ -93,6 +96,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgements
+
 FontAwesome for providing the beautiful icons.
 Express.js for the backend framework.
 EJS for rendering dynamic HTML.
