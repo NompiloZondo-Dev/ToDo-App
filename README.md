@@ -40,5 +40,6 @@ FontAwesome for providing the beautiful icons. Express.js for the backend framew
 
 # Contact Details
 nompilozondo44@gmail.com
+
 https://www.linkedin.com/in/nompilo-zondo-b8757820a/
 
